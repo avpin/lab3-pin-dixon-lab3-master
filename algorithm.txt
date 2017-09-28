@@ -1,0 +1,25 @@
+Algorithm
+
+1.) Print to the user "This program will determine whether your distance traveled from the ski jump is par or above par."
+
+2.) Input the type of hill, normal or large.
+
+3.) If the height is entered as "normal", height=46, points_per_meter = 2, par = 90.
+    Elif the height is entered as "large", height=70, points_per_meter = 1.8, par = 120.
+
+4.) Input the velocity of the jump.
+
+5.) Calculate time using math.sqrt((2*height)/9.8)
+
+6.) Calculate the distance using velocity*time
+
+7.) Calculate the points earned using 60+(distance-par)*points_per_meter, assign it as an int, and then print the output
+    to the user.
+
+8.) If the points_earned>=61, print "Great job!" to the user.
+    elif the points_earned<10, print "What happened??" to the user.
+    else, print "Sorry, you didn't go very far."
+
+9.) Print "Thank you for using our program."
+
+

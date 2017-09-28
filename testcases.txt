@@ -1,0 +1,21 @@
+Testcases
+
+Testcase_1: Use 0 as the velocity for any hill type.
+    Input: velocity=0
+    Output: points_earned=-120
+
+Testcase_2: Use a high velocity on a normal hill.
+    Input: velocity=96
+    Output: points_earned=468
+
+Testcase_3: Use a slow velocity on a large hill.
+    Input: velocity=23
+    Output: points_earned=0
+
+Testcase_4: Use 1 as the velocity for any hill type.
+    Input: velocity=1
+    Output: points_earned=-113
+
+Testcase_5: Use a negative velocity for any hill type.
+    Input: velocity=-46
+    Output: points_earned=-468
